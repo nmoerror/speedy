@@ -1,0 +1,14 @@
+.form-side {
+  background: white;
+  width: 50%;
+  display: inline-block;
+  margin: 1rem 0 1rem 2rem;
+  border-radius: 0.25rem;
+  padding: 1.5rem 3rem 2rem 3rem;
+  text-align: start;
+  height: 24rem;
+}
+
+.form-wrapper {
+  display: flex;
+}

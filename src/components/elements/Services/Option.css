@@ -1,0 +1,30 @@
+.price {
+  font-size: 1.7rem;
+  position: relative;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.price::before {
+  content: 'from';
+  position: absolute;
+  left: -2rem;
+  font-size: 0.8rem;
+  top: 0.4rem;
+}
+
+.rows {
+  padding: 0 1.1rem 1.5rem;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 0.3rem 0 0.3rem 0;
+}
+.space-between-end {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem 0 0.3rem 0;
+}

@@ -1,13 +1,176 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background: #f6f5f5;
+  line-height: 1.7;
+  color: #364d59 !important;
+  font-weight: 300;
+  font-size: 1rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+ul {
+  padding: 0;
+  margin: auto 0;
+}
+
+li {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 0 0 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  margin: auto;
+}
+
+.center-all {
+  position: relative;
+  width: 70rem;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.secondary-pages {
+  position: relative;
+  height: 80vh;
+  background-image: url('./assets//img//hero_2.jpg');
+  background-size: cover;
+  background-position: center;
+  animation: timeline 100s linear infinite;
+  padding-top: 8rem;
+  text-align: center;
+}
+
+.secondary-pages-service {
+  position: relative;
+  height: 65vh;
+  background-image: url('./assets/img/oil.jpg');
+  background-size: cover;
+  background-position: center;
+  animation: timeline 100s linear infinite;
+  padding-top: 8rem;
+  text-align: center;
+}
+
+.secondary-pages::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.middle {
+  position: absolute;
+  opacity: 0;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  z-index: 100;
+  font-weight: 400;
+  font-size: 3rem;
+  text-shadow: 0px 0px 10px #000000;
+  animation: HeroAnimation 0.4s forwards cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.middle-p {
+  position: absolute;
+  opacity: 0;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  font-weight: 600;
+  text-shadow: 0px 0px 10px #000000;
+  z-index: 100;
+  animation: HeroAnimation 0.4s forwards cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.middle-p-service {
+  position: absolute;
+  opacity: 0;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  font-weight: 600;
+  text-shadow: 0px 0px 10px #000000;
+  z-index: 100;
+  animation: HeroAnimation 0.4s forwards cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+/* INPUTS */
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0rem 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  outline: none;
+  margin: 1rem -0.4rem;
+}
+
+textarea {
+  min-height: 18rem;
+  resize: vertical;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  border: 1px solid #999;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5rem 1.75rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: 0.15s ease-in-out;
+  background: #0271e7;
+  color: white;
+  font-weight: 500;
+}
+
+button:hover {
+  background: #007bff;
+}
+
+@keyframes HeroAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
 }

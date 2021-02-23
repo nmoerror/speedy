@@ -1,0 +1,13 @@
+.footer-about {
+  display: inline-block;
+  margin-right: 8rem;
+  box-sizing: border-box;
+}
+
+.footer-links {
+  height: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  vertical-align: top;
+  align-items: flex-start;
+}
