@@ -26,10 +26,7 @@
   margin-top: 4rem;
   background: transparent;
   padding: 1rem;
-  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
-
-  transition: 0.25s ease-in-out;
-  animation: HeroAnimation 0.4s forwards cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  opacity: 0;  
 }
 
 .hero-main::before {
@@ -48,11 +45,31 @@
 .hero-guide {
   position: relative;
   width: 100%;
-  height: 14rem;
+  height: 16rem;
   margin-top: 7rem;
   background: white;
-  padding: 2rem 1rem 1rem 1rem;
+  padding: 2rem 2rem 1rem 2rem;
   box-sizing: border-box;
   box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
   animation: HeroAnimation 0.4s forwards cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.hero-guide h2 {
+  margin: auto;
+  text-align: center;
+}
+
+.hero-guide ul { 
+  text-align: center;
+  margin-bottom: 1.4rem;
+  font-weight: 800;
+}
+
+.hero-guide a { 
+  cursor: pointer;
+  color: blue;
+}
+
+.hero-guide li {
+  margin-left: 1rem;  
 }

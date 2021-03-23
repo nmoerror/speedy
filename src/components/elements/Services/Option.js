@@ -29,6 +29,7 @@ const Card = styled.div`
   button {
     background: rgba(245, 245, 245, 0.8);
     color: rgba(0, 123, 255, 0.5);
+    margin: auto auto 1rem auto;
   }
 
   &:hover {
@@ -39,6 +40,7 @@ const Card = styled.div`
     button {
       background: #0271e7;
       color: white;
+      
       &:hover {
         background: #007bff;
       }

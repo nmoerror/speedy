@@ -27,56 +27,47 @@ const SomethingElse = styled.div`
 
 const data = [
   [
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' },
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' },
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' },
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' },
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' },
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' },
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' }
+    { left: 'Standard Oil', right: '~3.5L' },
+    { left: 'Oil filter', right: '' },
+    { left: 'Fill radiator coolant', right: '1L' },
+    { left: 'Check radiator condition', right: '' },
+    { left: 'Test battery life', right: '' },
+    { left: '*T radiator cap', right: '' },
+    { left: '*T break fluid', right: '' },
+    { left: '*T clutch fluid', right: '' },
+    { left: '*T antifreeze condition', right: '' },
+    { left: '*T differential fluid', right: '' },
+    { left: '*T air filter', right: '' },
   ],
   [
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' },
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' },
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' },
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' },
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' },
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' },
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' }
+    { left: 'Premium Oil', right: '~4.5L' },
+    { left: 'Premium Oil filter', right: '' },
+    { left: 'Antifreeze radiator coolant', right: '5L' },
+    { left: 'Restore Battery', right: '' },
+    { left: 'Premium windshiled wipers', right: 'x3' },
+
+    { left: 'Premium break fluid', right: '' },
+    { left: 'Premium air filter', right: '4' },
+    { left: '*T clutch fluid', right: '' },
+    { left: '*T differential fluid', right: '20' },
+    { left: '*T radiator cap', right: '' },
   ],
   [
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' },
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' },
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' },
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' },
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' },
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' },
-    { left: 'Servicio', right: '4' },
-    { left: 'Oil', right: '20' }
-  ]
+    { left: 'Semi Syntetic Oil', right: '~4L' },
+    { left: 'Premium filter', right: '' },
+    { left: 'Fill radiator coolant', right: '1L' },
+    { left: 'Check radiator condition', right: '' },
+    { left: 'Test battery life', right: '' },
+    { left: '*T radiator cap', right: '' },
+    { left: '*T break fluid', right: '' },
+    { left: '*T clutch fluid', right: '' },
+    { left: '*T antifreeze condition', right: '' },
+    { left: '*T differential fluid', right: '' },
+    { left: '*T air filter', right: '' },
+  ],
 ];
 
-const ServiceOptions = props => {
+const ServiceOptions = (props) => {
   return (
     <div className='center-all'>
       <Section>

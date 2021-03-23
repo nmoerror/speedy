@@ -9,7 +9,7 @@ import third_logo from '../../../assets/logo/three.svg';
 const Section = styled.div`
   position: relative;
   height: 30rem;
-  background-image: url(${props => props.BG});
+  background-image: url(${(props) => props.BG});
   background-size: cover;
   background-position: center;
   text-align: center;

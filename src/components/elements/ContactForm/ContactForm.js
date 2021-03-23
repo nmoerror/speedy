@@ -40,37 +40,30 @@ const ContactForm = () => {
       <div className='center-all'>
         <h1>Contact Us or Use this form to talk to us!</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
-          assumenda, dolorum necessitatibus eius earum voluptates sed
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum
+          voluptates sed
         </p>
         <div className='form-wrapper'>
           <form style={{ width: '150%' }}>
-            <input
-              className='half-input plus'
-              type='text'
-              placeholder='First Name'
-            />
+            <input className='half-input plus' type='text' placeholder='First Name' />
             <input className='half-input' type='text' placeholder='Last Name' />
             <input type='email' placeholder='Email Address' />
-            <textarea
-              type='text'
-              placeholder='Dont forget to include you License plate number'
-            />
+            <textarea type='text' placeholder='Dont forget to include you License plate number' />
             <button type='submit'>Send Enquiry</button>
           </form>
           <div className='form-side'>
             <h2>Contact Info</h2>
             <p>
               <span>Address</span> <br />
-              34 Street Name, City Name Here, United States
+              6/11 View road, henderson
             </p>
             <p>
               <span>Phone</span> <br />
-              34 Street Name, City Name Here, United States
+              098378026
             </p>
             <p>
               <span>Email</span> <br />
-              34 Street Name, City Name Here, United States
+              info@speedymotors.co.nz
             </p>
           </div>
         </div>

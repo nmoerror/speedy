@@ -31,46 +31,25 @@ const Services = () => {
       <div className='center-all'>
         <Section>
           <Item
-            image={third_logo}
-            text='Repair'
+            image={first_logo}
             shadow={true}
             color='black'
+            text='Service'
             par='We inspect fluids, filters and only recommend items that need replacing, saving you time and money in the long run.'
           />
           <Item
             image={third_logo}
-            text='Repair'
-            shadow={false}
+            shadow={true}
             color='black'
-            par='We inspect fluids, filters and only recommend items that need replacing, saving you time and money in the long run.'
+            text='Repair'
+            par='We are professionals at what we do. Being specialized in all makes, we provide best services to Kiwi motorists.'
           />
           <Item
-            image={third_logo}
-            text='Repair'
-            shadow={false}
+            image={second_logo}
+            shadow={true}
             color='black'
-            par='We inspect fluids, filters and only recommend items that need replacing, saving you time and money in the long run.'
-          />
-          <Item
-            image={third_logo}
-            text='Repair'
-            shadow={false}
-            color='black'
-            par='We inspect fluids, filters and only recommend items that need replacing, saving you time and money in the long run.'
-          />
-          <Item
-            image={third_logo}
-            text='Repair'
-            shadow={false}
-            color='black'
-            par='We inspect fluids, filters and only recommend items that need replacing, saving you time and money in the long run.'
-          />
-          <Item
-            image={third_logo}
-            text='Repair'
-            shadow={false}
-            color='black'
-            par='We inspect fluids, filters and only recommend items that need replacing, saving you time and money in the long run.'
+            text='Inspection'
+            par='Buying a second hand vehicle? Bring it to us, you can seat back while our team examines the condition and safety of the car.'
           />
         </Section>
         <ServiceOptions />

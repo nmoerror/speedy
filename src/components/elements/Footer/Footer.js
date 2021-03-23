@@ -28,6 +28,9 @@ const Section = styled.div`
     font-weight: 400;
     margin-bottom: 2rem;
   }
+  .footer-about {
+    max-width: 50%;
+  }
 `;
 
 const Copyright = styled.div`
@@ -48,7 +51,12 @@ const Footer = () => {
       <div className='center-all'>
         <div className='footer-about'>
           <h4>About Us</h4>
-          <p>We specialize in all makes.</p>
+          <p>
+            Find out how we put a sustainability lens to ensure our activities demonstrate the care we show for our
+            Environment, investment in our Community by ensuring safer roads and drivers, fostering a diverse and
+            inclusive through our Culture, and that our Operations use only what is needed, reducing our energy
+            consumption and recycling where we can.
+          </p>
         </div>
         <div className='footer-links'>
           <h4>Navigate</h4>
@@ -66,8 +74,7 @@ const Footer = () => {
           </NavLink>
         </div>
         <Copyright>
-          Speedy Gonzalez ©{new Date().getFullYear()}{' '}
-          <span>| All rights reserved</span>
+          Speedy Motors ©{new Date().getFullYear()} <span>| All rights reserved</span>
         </Copyright>
       </div>
     </Section>

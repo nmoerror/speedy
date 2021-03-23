@@ -11,6 +11,7 @@ const Section = styled.div`
 
   img {
     width: 100%;
+    margin: auto;
   }
 `;
 
