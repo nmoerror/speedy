@@ -39,10 +39,7 @@ const ContactForm = () => {
     <Section>
       <div className='center-all'>
         <h1>Contact Us or Use this form to talk to us!</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum
-          voluptates sed
-        </p>
+        <p>Leave a message below with your details and one of our technicians will be in contact with you.</p>
         <div className='form-wrapper'>
           <form style={{ width: '150%' }}>
             <input className='half-input plus' type='text' placeholder='First Name' />
@@ -55,11 +52,9 @@ const ContactForm = () => {
             <h2>Contact Info</h2>
             <p>
               <span>Address</span> <br />
-              6/11 View road, henderson
             </p>
             <p>
               <span>Phone</span> <br />
-              098378026
             </p>
             <p>
               <span>Email</span> <br />
